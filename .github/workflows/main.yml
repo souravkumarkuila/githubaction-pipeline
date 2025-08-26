@@ -9,6 +9,6 @@ jobs:
     runs-on: sourav
     steps:
       - name: souravkumar
-      - run: echo "hello world"
+        run: echo "hello world"
       
     
