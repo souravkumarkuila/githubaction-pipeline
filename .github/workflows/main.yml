@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - main
+      - 'features/**'
+jobs:
+  my_first_job:
+    name: My first job
+    runs-on: sourav
+    steps:
+      - name: souravkumar
+      - run: echo "hello world"
+      
+    
